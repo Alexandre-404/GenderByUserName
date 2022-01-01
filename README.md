@@ -1,5 +1,10 @@
 # GenderByUserName
 
+
+# DataSet usado 
+```
+$ ./nomes.csv
+```
 Toda a documentação, código e notas podem ser encontrados aqui, bem como links para outros recursos que achei úteis para concluir o programa com êxito.
 
 O projecto foi construido usando:
@@ -19,11 +24,19 @@ Este pacote tem uma filosofia simples: quando você deseja habilitar o CORS, des
 ```
  pip install -U flask-cors
 ```
+# ML
+```
+ pip install -U scikit-learn
+```
+# Pandas
+```
+ pip install pandas
+```
 # Api e Points
 Para a submissão use o seguinte end-Point
  **GET**
 ```
-https://getgender.pythonanywhere.com/api/v0.1/?username=Feliciana%20Josefa
+https://getgender.pythonanywhere.com/api/v0.1/?username=Nome do usuario
 ```
  **POST**
  ```
