@@ -1,6 +1,5 @@
 # GenderByUserName
 
-
 # DataSet usado 
 ```
 $ ./nomes.csv
@@ -34,6 +33,7 @@ Este pacote tem uma filosofia simples: quando você deseja habilitar o CORS, des
 ```
 # Api e Points
 Para a submissão use o seguinte end-Point
+
  **GET**
 ```
 https://getgender.pythonanywhere.com/api/v0.1/?username=Nome do usuario
@@ -47,9 +47,13 @@ https://getgender.pythonanywhere.com/api/v0.1/
 ```
 { "userGender": "F", "decision_x": "-0.2197231686776337", "for_training": "false" }
 ```
+
 **userGender**
+
 Género de retorno
+
 **decision_x**
+
 Valor de decisão linear (quanto mais próximo do ZERO mais probabilidade de certeza)
 **for_training**
 Bool para introduzir o aprendizado continuo.
